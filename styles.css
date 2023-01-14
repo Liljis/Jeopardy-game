@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat&family=Courgette&family=Dancing+Script&family=Indie+Flower&family=Kalam:wght@300&family=Lobster&family=Merienda&family=Moon+Dance&family=Pacifico&family=Shadows+Into+Light&display=swap");
+
+body {
+    font-family: "Merienda", cursive;
+    margin: 0;
+    padding: 0;
+    color: white;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  
+}
+
+#game{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    flex-wrap: wrap;
+    background: rgb(32, 32, 32);
+}
+.card{
+    width: 160px;
+    height: 120px;
+    background-color: blue;
+    border-left: 0.5rem solid rgb(19, 19, 160);
+    border-right: solid 0.5rem rgb(11, 11, 91);
+    border-top: solid 0.5rem rgb(1, 61, 200);
+    border-bottom: solid 0.5rem rgb(20, 20, 89);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 4rem;
+    font-weight: 600;
+}
+button{
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    margin: .2rem 0;
+}
+.button-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 0.2rem;
+    margin-bottom: -1rem;
+    flex-wrap: wrap;
+}
+.correct-ans{
+    background-color: green;
+    color: white;
+}
+.wrong-ans{
+    background-color: red;
+    color: white;
+}
